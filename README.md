@@ -34,3 +34,7 @@ This chatbot takes user medical questions as input and searches for relevant ans
 
 ## 📂 File Structure
 
+├── Medical_Q&A_Chatbot.py      # Main Streamlit application  
+├── fixed_qa_dataset.json       # Cleaned MedQuAD data (Q&A)  
+├── requirements.txt            # Dependencies  
+└── README.md                   # Project documentation  
