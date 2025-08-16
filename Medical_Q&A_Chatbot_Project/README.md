@@ -1,16 +1,40 @@
-# 🩺 Task 2: Medical Q&A Chatbot
+# Medical_Q&A_Chatbot
+Medical Q&amp;A Chatbot is a lightweight, Streamlit-based application that answers user medical queries by matching keywords against a curated dataset (fixed_qa_dataset.json) sourced from MedQuAD (U.S. National Library of Medicine). It retrieves and displays relevant answers with source links, offering fast and accessible medical information.
 
-This project is part of the **NullClass Internship** and focuses on building a **medical question-answering chatbot** using the **MedQuAD dataset**. The chatbot is trained using **SentenceTransformer** embeddings and a **Logistic Regression classifier** to provide accurate and reliable answers.
 
----
+# 🩺 Medical Q&A Chatbot
 
-## 📌 Objective
-
-- Develop a chatbot that can answer user medical queries.
-- Train a model using sentence embeddings and logistic regression.
-- Ensure the chatbot gives semantically relevant answers.
-- Evaluate model performance using appropriate metrics.
+**Medical Q&A Chatbot** is a lightweight, keyword-based question answering system built with Streamlit. It helps users get relevant answers to medical queries using the MedQuAD dataset curated by the U.S. National Library of Medicine.
 
 ---
 
-## 🗂️ Project Structure
+## 📌 Description
+
+This chatbot takes user medical questions as input and searches for relevant answers by matching keywords from a structured JSON dataset. It retrieves the top 3 most relevant Q&A pairs and displays official source links, if available.
+
+---
+
+## 🚀 Features
+
+- 🔍 Keyword-based search from the MedQuAD dataset
+- ✅ Displays top 3 most relevant Q&A pairs
+- 🔗 Includes official medical source links (if available)
+- ⚡ Lightweight, fast, and easy to use
+- 📁 Based on `fixed_qa_dataset.json`
+
+---
+
+## 🛠️ Tech Stack
+
+- Python
+- Streamlit (Web App Interface)
+- JSON (MedQuAD dataset)
+
+---
+
+## 📂 File Structure
+
+├── Medical_Q&A_Chatbot.py      # Main Streamlit application  
+├── fixed_qa_dataset.json       # Cleaned MedQuAD data (Q&A)  
+├── requirements.txt            # Dependencies  
+└── README.md                   # Project documentation  
